@@ -19,6 +19,7 @@
   </view>
   <view>FullName: {{fullName}}</view>
    <view>aaa: {{aaa}}</view>
+   <view>ccc: {{store.data.ccc.ddd}}</view>
   <hello></hello>
   <test-pure-component bind:random="onRandom" pureProp="{{pureProp}}"></test-pure-component>
 </view>
